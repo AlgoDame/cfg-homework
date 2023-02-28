@@ -1,0 +1,83 @@
+1. Python theory questions
+
+1. What is the program?
+A program is a set of instructions written in a specific programming language  and these instructions tell a computer what to do.
+
+2. What is the process?
+A process is a computer program that is currently being executed.
+
+3. What is Cache?
+A cache is a storage area for temporary files. Theses files are held here so that they can be easily retrieved when a request is made and a cache saves memory usage.
+
+4. What is Thread and Multithreading?
+A thread refers to a path in a process that is being executed. When a program is being executed (process), a thread is created for such
+execution. A process can be split up into smaller units or threads and this is called multithreading. Multithread
+means having several paths for the execution of a program.
+
+5. What is GIL in Python and how does it work?
+GIL means Python Global Interpreter Lock. GIL is a process lock that ensures that python only executes one thread at a time. It works by preventing multi-threading so as to preserve
+the accuracy of the reference counter of objects.
+
+6. What is Concurrency and Parallelism and what are the differences?
+Concurrency is process whereby a computer executes a set of tasks in a non-sequential, overlapping manner, involving context-switching.
+The computer can start a task and then mid-way, switch to another task before returning to the previous task.
+
+Parallelism is a process that occurs when a computer independently executes a set of tasks at the same time.
+The difference between the two is that concurrency involves context switching while parallelism does not.
+
+7. DRY, KISS, BDUF:
+DRY: Do not repeat yourself. It means avoiding unnecessary repetition in code.
+KISS: Keep it simple, stupid. It means writing code in way that is simple, efficient and uncomplicated.
+BDUF: Big design up front. It means ensuring that before a software is created it is thoroughly designed and the design plan should be well laid out.
+
+8. A garbage collector is an entity in python that is responsible for freeing up memory when an object is no longer
+referenced. Python keeps a count of all objects that are initialized and when those objects are no longer used in the program, their
+reference count becomes zero and the garbage collector removes them from memory.
+
+9. A deadlock is said to occur when two or more transactions are waiting for each other to give up locks on a table.
+A livelock is said to occur when a request for an exclusive lock is always denied due to the existence of overlapping shared locks.
+
+10. Flask is a light weight python framework used for building web applications, especially the
+backend.
+
+2. Difference between python 2 and python 3
+- In python 2, integer division is done using the single slash like so '/' while in python 3, integer division is
+done using the double slash like so '//'.
+- In python 2, printing to the console is done using the print statement without the parenthesis while in
+python 3, printing is done using the print function which must include parenthesis.
+- In python 3, strings are unicode by default while in python2, strinngs are ASCII by default.
+- Python 3 is simpler than python 2. Python 3 has a simpler and more readable syntax than python 2.
+
+5. Agile methodology, Scrum: name at least 3 types of meetings that
+are exercised by Agile teams and describe the objective of each
+meeting.
+
+- Daily Scrum: the meeting is attended by the development team and the scrum master and in this meeting, the developers are
+asked 3 specific questions such as: What did you do yesterday?, What will you do today? and What are the blockers
+or impediments in your way?
+- Sprint Review: this meeting is held at the end of a sprint and it is used as a demo time to show stakeholders what
+was achieved during the sprint.
+- Sprint Retrospective: this meeting is a time when the development team and the scrum master discuss the outcome of
+a just concluded sprint and find out what went well, what did not go well and what needs improvements.
+
+6. Exception handling in Python, explain what each of the following
+blocks means in the program flow: Try, except, else, finally
+
+The try block is always executed. It is the first block that is executed and if an errors occur in the try block, it is
+caught in the except block.
+The except block is for catching errors that occur in the try block.
+The else block is else block is executed if a certain condition is not met in the try block.
+The final block is always executed, no matter what.
+
+7. How can we connect a Python program (process) with a
+database? Explain how it works and how do we fetch / insert data
+into DB tables from a python program.
+
+We can make such connection using a database driver module. In python and mysql, one of such drivers is the
+python-mysql-connector.
+
+8.
+
+
+
+
